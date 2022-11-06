@@ -1,10 +1,14 @@
 import React from 'react'
 import "../src/Home.css"
+import zuri_intern from "../src/images/zuri.png"
+import i4g  from "../src/images/I4G.png"
+import redot from "../src/images/redot.png"
 
 
 function FormDisabledExample() {
   let name ="Allen kayode";
   return (
+   <div>
     <body>
     <div className='Form'>
       <h1>Contact Me</h1>
@@ -54,7 +58,25 @@ function FormDisabledExample() {
 
   
 </div>
+
+
+<div className='footer_contact' >
+  
+      <div>
+          <img src={zuri_intern} alt="i4g logo"/>
+          <img className="red-dot" src={redot} alt="redDot" />
+        </div>
+
+        <p> HNG INTERNSHIP 9 FRONTEND TASK</p>
+
+        <div>
+          <img src={i4g} alt="I4G" />
+        </div>
+        </div>
+  
 </body>
+
+      </div>
   );
 }
 

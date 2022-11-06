@@ -137,6 +137,27 @@ footer p{
   font-weight: 400;
   color: #667085;
 }
+.footer_contact{ 
+  /* align-items: center;
+   position: absolute;
+   bottom: 1rem;
+   display: flex;
+   gap: 16rem; */
+
+   margin: 0 auto;
+   margin-top: 5em;
+   width: 80%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 15px;
+   position: absolute;
+   bottom: 0.5rem;
+   left: 9rem;
+   border-top: 1px solid #eaecf0;
+   row-gap: 5em;
+ }
+
 
 #profile_img {
   border-radius: 91%;
@@ -191,6 +212,9 @@ footer p{
   cursor: pointer;
   }
   footer{
+    display: none;
+  }
+  .footer_contact{
     display: none;
   }
   button a{
